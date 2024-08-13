@@ -62,6 +62,7 @@ footer {
 
 a {
   margin: 20px;
+  text-decoration: none;
 }
 
 a.top {
@@ -71,8 +72,8 @@ a.top {
 
 a.bottom {
   color: var(--lblue);
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .spc-btw {
