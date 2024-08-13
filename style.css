@@ -35,6 +35,7 @@ footer {
 
 .d-flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .w-50 {
