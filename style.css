@@ -6,6 +6,7 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   flex-direction: column;
   background-color: var(--blue);
   color: var(--light);
@@ -17,11 +18,19 @@ header {
   margin-top: 30px;
   margin-left: 30px;
   margin-right: 30px;
+  justify-content: space-between;
+}
+
+main {
+  padding: 100px;
+  justify-content: space-between;
 }
 
 footer {
   background-color: var(--light);
   color: var(--blue);
+  text-align: center;
+  padding: 3em;
 }
 
 .d-flex {
@@ -30,6 +39,7 @@ footer {
 
 .w-50 {
   width: 50%;
+  padding: .5em;
 }
 
 .w-100 {
@@ -40,7 +50,31 @@ footer {
   border: none;
   background: var(--lblue);
   cursor: pointer;
-  border-radius: 100px;
-  font-size: medium;
+  border-radius: 5px;
   color: var(--light);
+  padding: 1em;
+  font-size: 16px;
+}
+
+.srvc {
+  color: var(--yellow);
+}
+
+a {
+  margin: 20px;
+}
+
+a.top {
+  color: var(--light);
+  text-decoration: none;
+}
+
+a.bottom {
+  color: var(--lblue);
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.spc-btw {
+  justify-content: space-between;
 }
