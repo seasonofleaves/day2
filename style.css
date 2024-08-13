@@ -45,6 +45,7 @@ footer {
 .w-50 {
   width: 50%;
   padding: .5em;
+  min-width: 420px;
 }
 
 .w-100 {
