@@ -1,0 +1,46 @@
+:root {
+  --blue: #061130;
+  --lblue: #1C4BC4;
+  --light: #F4F6F8;
+  --yellow: #FAFD61;
+}
+
+body {
+  flex-direction: column;
+  background-color: var(--blue);
+  color: var(--light);
+  margin: unset;
+}
+
+header {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+footer {
+  background-color: var(--light);
+  color: var(--blue);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.chat-btn {
+  border: none;
+  background: var(--lblue);
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: medium;
+  color: var(--light);
+}

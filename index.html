@@ -8,32 +8,46 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-  <header>
-    <img src="coolsite-logo.png" alt="Coolsite Logo">
-    <a href="">About Us</a>
-    <a href="">Services</a>
-    <a href="">Let's Chat!</a>
+<body class="d-flex">
+  <div>
 
-  </header>
+    <header class="d-flex" style="justify-content: space-between;">
 
-  <main>
-    <div>
-      <span>Services</span>
-      <h1>Building web apps that scale to your world wide audience</h1>
-      <p>At CS2 we identify the digital divide with additional
-        clickthroughs from DevOps Nanotechnology immersion along
-        the information highway to close the loop on focusing solely on
-        the bottome line.</p>
-    </div>
-    <img src="world.png" alt="World Map">
-  </main>
+      <img class="coolsite-logo" src="coolsite-logo.png" alt="Coolsite Logo">
+
+
+      <div>
+        <a href="">About Us</a>
+        <a href="">Services</a>
+        <button class="chat-btn">Let's Chat!</button>
+      </div>
+    </header>
+
+    <main class="d-flex">
+      <div class="w-50">
+        <span>Services</span>
+        <h1>Building web apps that scale to your world wide audience</h1>
+        <p>At CS2 we identify the digital divide with additional
+          clickthroughs from DevOps Nanotechnology immersion along
+          the information highway to close the loop on focusing solely on
+          the bottome line.</p>
+      </div>
+      <div class="w-50">
+        <img class="w-100" src="world.png" alt="World Map">
+      </div>
+
+    </main>
+
+  </div>
 
   <footer>
-    <span>HTML & CSS</span>
-    <span>Semantic Markup</span>
-    <span>Responsive Design</span>
-    <span>Accessibility Standards</span>
+    <div>
+      <a href="">HTML & CSS</a>
+      <a href="">Semantic Markup</a>
+      <a href="">Responsive Design</a>
+      <a href="">Accessibility Standards</a>
+    </div>
+
     <h1>From Ideas to Reality</h1>
     <p>If you can dream it, you can build it with web technology solutions.</p>
   </footer>
